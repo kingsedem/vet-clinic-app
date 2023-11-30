@@ -11,7 +11,6 @@ public class WhenCreatingANewDog {
         Dog fido = Dog.called("Fido")
                       .ofBreed("Poodle")
                       .ofColour("Black")
-                       //.ofColour("Black")
                       .withFavouriteFood("Pizza")   //Optional field
                       .bornOn(birthday);
 
